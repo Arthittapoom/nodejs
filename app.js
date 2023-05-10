@@ -11,6 +11,7 @@ app.use(morgan('combined'));
 app.get("/", (req, res) =>{
 
     res.send('hello borntoDev');
+    res.send('hello borntoDev ');
 
 })
 
